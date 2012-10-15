@@ -1,0 +1,11 @@
+{
+  "name": "bit.ly image shortener",
+  "description": "Right-click images to get bitly url",
+  "version": "0.1",
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["imagebitly.js", "jquery.min.js"]
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://api-ssl.bitly.com; object-src 'self'"
+}
